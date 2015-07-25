@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Interface to H-Life service on Thai mobile carrier Truemove",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
