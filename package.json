@@ -1,6 +1,6 @@
 {
   "name": "hlife",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Interface to H-Life service on Thai mobile carrier Truemove",
   "main": "index.js",
   "bin": "index.js",
