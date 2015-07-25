@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 module.exports = check_balance
 
 var debug = require('debug')('hlife')
@@ -40,6 +41,7 @@ function check_balance(callback) {
       else if (pkg.remaining.match(/Unlimited/))
         pkg.remaining = Infinity
 
+      debug('Package: %j', pkg)
       result.push(pkg)
     }
 
