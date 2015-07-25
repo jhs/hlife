@@ -82,11 +82,21 @@ function fetch_balance(callback) {
 }
 
 function main() {
-  check_balance(function(er, state) {
+  check_balance(function(er, packages) {
     if (er)
       throw er
 
-    console.log(state)
+    var label_len = 0
+    packages.forEach(function(package) {
+      label_len = Math.max(label_len, (''+package.remaining).length)
+    })
+
+    packages.forEach(function(package) {
+      var label = ''+package.remaining
+      while (label.length < label_len)
+        label += ' '
+      console.log('%s: %s', label, package.name)
+    })
   })
 }
 
