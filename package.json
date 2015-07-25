@@ -1,0 +1,25 @@
+{
+  "name": "hlife",
+  "version": "1.0.0",
+  "description": "Interface to H-Life service on Thai mobile carrier Truemove",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhs/hlife.git"
+  },
+  "keywords": [
+    "3g",
+    "mobile",
+    "hlife",
+    "truemove"
+  ],
+  "author": "Jason Smith <jason.h.smith@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jhs/hlife/issues"
+  },
+  "homepage": "https://github.com/jhs/hlife#readme"
+}
